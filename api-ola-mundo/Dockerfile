@@ -1,4 +1,4 @@
-FROM openjdk:8
-COPY target/api-ola-mundo-0.0.1-SNAPSHOT.jar olamundo.jar
+FROM openjdk:11
+COPY ./ api-ola-mundo.jar
 EXPOSE 8080
-ENTRYPOINT ["java", "-jar", "/olamundo.jar"]
+ENTRYPOINT ["java", "-jar", "/api-ola-mundo.jar"]
