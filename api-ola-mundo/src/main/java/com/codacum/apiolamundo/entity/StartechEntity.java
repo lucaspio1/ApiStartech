@@ -22,8 +22,8 @@ public class StartechEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    @Column( name = "nome_participante")
+    @Column( name = "name")
     private String name;
-    @Column(name =  "nome_do_mentor")
+    @Column(name =  "mentorName")
     private String mentorName;
 }
